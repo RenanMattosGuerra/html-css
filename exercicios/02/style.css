@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(145, 170, 196); 
+    font-family: serif; 
+    font-size: 25px;
+
+}
+h1{
+    color: crimson;
+    text-align: center;
+    
+}
+h2{
+    color: rgb(223, 70, 14);
+    text-align: center;
+}
+p{
+    text-align: center;
+    background-color: black;
+    color: rgb(230, 18, 219);
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, rgb(119, 219, 181), rgb(93, 143, 70), rgb(129, 167, 95));
+    }
+#principal {
+    font-size: 32px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 350px;
+}
+
+.patentes {
+    font-size: 16px;
+    background-color: rgb(125, 247, 190);
+    padding: 10px;
+    width: 350px;
+}

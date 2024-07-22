@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(23, 27, 27);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    font-size: 2em;
+    color: white;
+    padding: 1em 2em;
+    background-color: rgb(44, 44, 49);
+    border: none;
+    border-radius: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button::after{
+    content:"";
+    position: absolute;
+    height: 106%;
+    width: 103%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, rgb(55, 0, 255),rgb(87, 0, 128));
+    z-index: -1;
+}
+button:hover{
+    z-index: 0;
+    box-shadow: -40px -10px 100px rgb(161, 173, 226), 
+    40px 10px 100px rgb(194, 133, 202);
+    }
+a{
+    text-decoration: none;
+    color: white;
+}
