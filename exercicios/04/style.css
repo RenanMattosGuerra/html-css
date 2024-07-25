@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.quadrado{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-flex;
+}
+#q1{
+    background-color: aqua;
+        
+}
+#q2{
+    background-image: linear-gradient(to bottom right, yellow,red);
+}
+#q3{
+    background-image: url(imagens/pattern001.png);
+}
+
+body{
+    background-image: url(imagens/wallpaper005.jpg);
+    height: 100vh;
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#bloco{
+    border: 2px solid black;
+    margin: 10px;
+    width: 600px;
+    height: 200px;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    
+}
