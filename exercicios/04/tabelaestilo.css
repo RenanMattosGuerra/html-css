@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+table{
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+   }
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: grey;
+    color: white;
+}
+tfoot{
+    background-color: slategray;
+    color: white;
+}
+caption{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px;
+    margin-top: 20vh;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, white,lightblue,aqua);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+tbody > tr:nth-child(2n){
+    background-color: rgb(77, 175, 150);
+}
