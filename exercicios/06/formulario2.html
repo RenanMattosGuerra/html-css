@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="">  
+        <fieldset>
+            <label for="in1">Numero 1 :</label>
+            <input type="number" name="n1" id="in1" min="0" max="20" required
+            oninput="isoma.innerHTML= Number(in1.value) + Number(in2.value)">
+            <br>
+
+            <label for="in2"> Numero 2 :</label>
+            <input type="number" name="n2" id="in2" min="0" max="20" required
+            oninput="isoma.innerHTML= Number(in1.value) + Number(in2.value)">
+            <br>
+            
+            <label for="isoma"> Soma :</label>
+            <output name="soma" id="isoma">
+                0
+            </output>       
+        </fieldset>
+
+        <fieldset>
+            <label for="num">Range</label>
+            <input type="range" name="num" id="num" required min="0" max="10" value="5"
+            oninput="result.innerHTML = Number(num.value)">
+            <output name="result" id="result">5</output>
+        </fieldset>
+
+        <fieldset>
+            <label for="idade">Em que ano você nasceu?</label>
+            <input type="number" name="idade" id="idade" min="1900" max="2024" required
+            oninput="calcIdade()">
+
+            <label for="resultado"> Sua idade :</label>
+            <output id="resultado">
+                0
+            </output>
+
+        </fieldset>
+    </form>
+
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            resultado.innerHTML= Number(atual) - Number(idade.value)
+        }
+    </script>
+</body>
+</html>

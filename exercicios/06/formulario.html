@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masc"> <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>         
+        </fieldset>
+        <fieldset>
+            <legend>Bandas Favoritas</legend>
+                <input type="checkbox" name="metallica" id="metallica"> <label for="metallica">Metallica</label> 
+                <input type="checkbox" name="megadeth" id="megadeth"> <label for="megadeth">Megadeth</label> <br>
+                <input type="checkbox" name="iron maiden" id="iron maiden"> <label for="iron maiden">Iron Maiden</label> 
+                <input type="checkbox" name="black sabbath" id="black sabbath"> <label for="black sabbath">Black Sabbath</label> <br>
+                <input type="checkbox" name="judas" id="judas"><label for="judas">Judas Priest</label>
+                <input type="checkbox" name="motor" id="motor"> <label for="motor">Motorhead</label>
+        </fieldset>
+        <fieldset>
+            <legend>Instrumento Favorito</legend>
+            <input type="checkbox" name="guitar" id="guitar"> <label for="guitar"> Guitarra</label>
+            <input type="checkbox" name="bass" id="bass"> <label for="bass"> Baixo</label>
+            <input type="checkbox" name="drum" id="drum"><label for="drum"> Bateria</label>
+            <input type="checkbox" name="keys" id="keys"> <label for="keys"> Teclado</label>
+        </fieldset>
+        <fieldset>
+            <legend>Continente</legend>
+            <select name="Continente" id="icont">
+                <label for="Continente"> Continente</label>
+                <option value="" selected > ---Escolha---</option>
+                <option value="América do Norte"> América do Norte</option>
+                <option value="América do Sul"> América do Sul</option>
+                <option value="Europa"> Europa</option>
+                <option value="Ásia"> Ásia</option>
+                <option value="África"> África</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Antártida">Antártida</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Nível de Satfisfação</legend>
+            <input type="range" name="satis" id="satis" min="0" max="10">
+        </fieldset>
+        <fieldset>
+            <legend>Considerações</legend>
+            <textarea name="Considerações" id="iconsi" cols="40" rows="20"></textarea>
+        </fieldset>
+        
+        <input type="submit"> <label for="submit"></label>
+        <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
