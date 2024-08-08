@@ -29,6 +29,14 @@
         margin-bottom: 20px;
         margin-top: 10px;
        }
+       input{
+        height: 25px;
+        width: 350px;
+    }
+    .campo{
+        padding: 10px;
+    }
+
     
 }
 
@@ -62,5 +70,12 @@
    section>div#formulario>form{
         font-size: 1em;
    }
+   input{
+    height: 35px;
+    width: 350px;
+    }
+    .campo{
+        padding: 15px;
+    }
 
 }

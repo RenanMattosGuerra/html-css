@@ -11,6 +11,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 body,html{
     background-color: #5f2c82;
@@ -57,6 +63,7 @@ section>div>p{
 }
 section>div>h1{
     text-indent: 5px;
+    font-family: "Courgette"
 }
 
 form>input[type=submit]{
